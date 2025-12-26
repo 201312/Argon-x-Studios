@@ -1,0 +1,212 @@
+h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 80px;
+color: #f4b4ff;
+float: left;
+}
+ body {
+   
+      animation: fadeInAnimation ease 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+          @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    body{
+ background-image: url(Screenshot\ 2025-11-30\ 173301.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+    }
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    height: 100vh;            
+    width: 100%;
+}
+
+.carousel {
+    width: 750px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.slide {
+    width: 33.333%;
+    height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#s1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#s2:checked ~ .slides {
+    transform: translateX(-33.333%);
+}
+
+#s3:checked ~ .slides {
+    transform: translateX(-66.666%);
+}
+.dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dots label {
+    width: 12px;
+    height: 12px;
+    background: #aaa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+p{
+    color: beige;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #f4b4ff;
+    text-align: center;
+    font-size: 60px;      
+}
+img{
+  border-radius: 30px;
+  float: right;
+  size: 30px;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;            
+}
+
+.header-row img {
+    height: 80px;          
+    width: auto;
+}
+.mrsmol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;          
+    color: #ffffff;
+    border-radius: 20px;      
+    text-align: center;
+    background-color: rgba(249, 80, 80, 0.861);
+    padding: 25px 50px;        
+    cursor: pointer;          
+    border: 10px;
+    border-color: aqua;
+    border: none;
+    border: 6px solid rgb(255, 255, 255);
+}  
+.a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;          
+    color: #000000;
+    border-radius: 20px;      
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.861);
+    padding: 25px 50px;        
+    cursor: pointer;          
+    border: 10px;
+    border-color: aqua;
+    border: none;
+    border: 6px solid rgb(255, 255, 255);
+}  
+.b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;          
+    color: #51b9ff;
+    border-radius: 20px;      
+    text-align: center;
+    background-color: rgba(236, 236, 236, 0.861);
+    padding: 25px 50px;        
+    cursor: pointer;          
+    border: 10px;
+    border-color: aqua;
+    border: none;
+    border: 6px solid rgb(255, 255, 255);
+}  
+.c{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;          
+    color: #ffffff;
+    border-radius: 20px;      
+    text-align: center;
+    background-color: rgba(61, 218, 56, 0.861);
+    padding: 25px 50px;        
+    cursor: pointer;          
+    border: 10px;
+    border-color: aqua;
+    border: none;
+    border: 6px solid rgb(255, 255, 255);
+}  
+.d{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;          
+    color: #ffffff;
+    border-radius: 20px;      
+    text-align: center;
+    background-color: rgba(138, 66, 255, 0.861);
+    padding: 25px 50px;        
+    cursor: pointer;          
+    border: 10px;
+    border-color: aqua;
+    border: none;
+    border: 6px solid rgb(255, 255, 255);
+}  
+.section-container {
+  display: flex; 
+}
+
+.left-section {
+  flex: 1; 
+  padding: 20px;
+  border-right: 1px solid #ccc; 
+}
+
+.right-section {
+  flex: 1; 
+  padding: 20px;
+}
+.he{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.mrpig{
+    text-align: center;
+}
